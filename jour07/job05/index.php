@@ -316,68 +316,68 @@ elseif(isset($_POST['submit8'])&& $joueur == 2){
 <?php
     if(isset($_SESSION['case1']) && $_SESSION['case1'] == 'X' && isset($_SESSION['case4']) && $_SESSION['case4'] == 'X'
      && isset($_SESSION['case7']) && $_SESSION['case7'] == 'X'){
-        echo "Joueur X win Cheh 1<br>";
+        echo "Joueur X win Cheh <br>";
     }
     elseif(isset($_SESSION['case1']) && $_SESSION['case1'] == 'O' && isset($_SESSION['case4']) && $_SESSION['case4'] == 'O'
      && isset($_SESSION['case7']) && $_SESSION['case7'] == 'O'){
-        echo "Joueur O win Cheh 1<br>";
+        echo "Joueur O win Cheh <br>";
     }
     elseif(isset($_SESSION['case2']) && $_SESSION['case2'] == 'X' && isset($_SESSION['case5']) && $_SESSION['case5'] == 'X'
      && isset($_SESSION['case8']) && $_SESSION['case8'] == 'X'){
-        echo "Joueur X win Cheh 2<br>";
+        echo "Joueur X win Cheh <br>";
     }
     elseif(isset($_SESSION['case2']) && $_SESSION['case2'] == 'O' && isset($_SESSION['case5']) && $_SESSION['case5'] == 'O'
      && isset($_SESSION['case8']) && $_SESSION['case8'] == 'O'){
-        echo "Joueur O win Cheh 3<br>";
+        echo "Joueur O win Cheh <br>";
     }
     elseif(isset($_SESSION['case3']) && $_SESSION['case3'] == 'X' && isset($_SESSION['case6']) && $_SESSION['case6'] == 'X'
      && isset($_SESSION['case9']) && $_SESSION['case9'] == 'O'){
-        echo "Joueur X win Cheh 4<br>";
+        echo "Joueur X win Cheh <br>";
     }
     elseif(isset($_SESSION['case3']) && $_SESSION['case3'] == 'O' && isset($_SESSION['case6']) && $_SESSION['case6'] == 'O'
      && isset($_SESSION['case9']) && $_SESSION['case9'] == 'O'){
-        echo "Joueur O win Cheh 5<br>";
+        echo "Joueur O win Cheh <br>";
     }
     elseif(isset($_SESSION['case1']) && $_SESSION['case1'] == 'X' && isset($_SESSION['case2']) && $_SESSION['case2'] == 'X' 
     && isset($_SESSION['case3']) && $_SESSION['case3'] == 'X'){
-        echo "Joueur X win Cheh 6<br>";
+        echo "Joueur X win Cheh <br>";
         //var_dump($_SESSION['case1'],$_SESSION['case2'],$_SESSION['case3']);
     }
     elseif(isset($_SESSION['case1']) && $_SESSION['case1']== 'O' && isset($_SESSION['case2']) && $_SESSION['case2'] == 'O' &&
      isset($_SESSION['case3']) && $_SESSION['case3'] == 'O'){
-        echo "Joueur O win Cheh 6<br>";
+        echo "Joueur O win Cheh <br>";
     }
     elseif(isset($_SESSION['case4']) && $_SESSION['case4'] == 'X' && isset($_SESSION['case5']) && $_SESSION['case5'] == 'X'
      && isset($_SESSION['case6']) && $_SESSION['case6'] == 'X'){
-        echo "Joueur X win Cheh 7<br>";
+        echo "Joueur X win Cheh <br>";
     }
     elseif(isset($_SESSION['case4']) && $_SESSION['case4'] == 'O' && isset($_SESSION['case5']) && $_SESSION['case5'] == 'O'
      && isset($_SESSION['case6']) && $_SESSION['case6'] == 'O'){
-        echo "Joueur O win Cheh 7<br>";
+        echo "Joueur O win Cheh <br>";
     }
     elseif(isset($_SESSION['case7']) && $_SESSION['case7'] == 'X' && isset($_SESSION['case8']) && $_SESSION['case8'] == 'X'
      && isset($_SESSION['case9']) && $_SESSION['case9'] == 'X'){
-        echo "Joueur X win Cheh 8<br>";
+        echo "Joueur X win Cheh <br>";
     }
     elseif(isset($_SESSION['case7']) && $_SESSION['case7'] == 'O' && isset($_SESSION['case8']) && $_SESSION['case8'] == 'O'
      && isset($_SESSION['case9']) && $_SESSION['case9'] == 'O'){
-        echo "Joueur O win Cheh 8<br>";
+        echo "Joueur O win Cheh <br>";
     }
     elseif(isset($_SESSION['case1']) && $_SESSION['case1'] == 'X' && isset($_SESSION['case5']) && $_SESSION['case5'] == 'X'
      && isset($_SESSION['case9']) && $_SESSION['case9'] == 'X'){
-        echo "Joueur X win Cheh 9<br>";
+        echo "Joueur X win Cheh <br>";
     }
     elseif(isset($_SESSION['case1']) && $_SESSION['case1'] == 'O' && isset($_SESSION['case5']) && $_SESSION['case5'] == 'O'
      && isset($_SESSION['case9']) && $_SESSION['case9'] == 'O'){
-        echo "Joueur O win Cheh 9<br>";
+        echo "Joueur O win Cheh <br>";
     }
     elseif(isset($_SESSION['case3']) && $_SESSION['case3'] == 'X' && isset($_SESSION['case5']) && $_SESSION['case5'] == 'X'
      && isset($_SESSION['case7']) && $_SESSION['case7'] == 'X'){
-        echo "Joueur X win Cheh 10<br>";
+        echo "Joueur X win Cheh <br>";
     }
     elseif(isset($_SESSION['case3']) && $_SESSION['case3'] == 'O' && isset($_SESSION['case5']) && $_SESSION['case5'] == 'O'
      && isset($_SESSION['case7']) && $_SESSION['case7'] == 'O'){
-        echo "Joueur O win Cheh 10<br>";
+        echo "Joueur O win Cheh <br>";
     }
     elseif(isset($_SESSION['case1']) && isset($_SESSION['case2']) && isset($_SESSION['case3'])
                 && isset($_SESSION['case4']) && isset($_SESSION['case5']) && isset($_SESSION['case6']) 
