@@ -1,0 +1,1 @@
+SELECT * FROM etudiant WHERE naissance < CURRENT_DATE - INTERVAL '18' YEAR
