@@ -9,8 +9,8 @@
 </head>
 <body>
     <form method="GET" action="index.php">
-    <input type="text" name="mail" placeholder="mail" value="1" ><br>
-    <input type="text" name="name" placeholder="name" value="2"><br>
+    <input type="text" name="mail" placeholder="mail"><br>
+    <input type="text" name="name" placeholder="name"><br>
     <input type="date" name="date" placeholder="date" value="3"><br>
     <input type="submit" name="submit" value="envoyer"><br>
     </form>
@@ -27,7 +27,7 @@
         </thead>
         <tbody>
             <?php
-            $result = 0;
+            //$result = 0;
             foreach($_GET as $key => $val){
                 echo "<tr>";
                     echo "<td>";

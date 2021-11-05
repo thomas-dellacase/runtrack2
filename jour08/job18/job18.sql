@@ -1,1 +1,2 @@
 SELECT etages.nom, salles.nom AS "Biggest Room" FROM salles INNER JOIN etages WHERE salles.id_etage = etages.id ORDER by salles.capacite DESC LIMIT 1
+-- Limite 1 n'affiche que 1 resultat mais les autres resutats existent quand meme--
