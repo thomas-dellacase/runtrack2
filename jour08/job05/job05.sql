@@ -1,1 +1,1 @@
-SELECT `prenom`, `nom`, `naissance` FROM `etudiant` WHERE sexe="femme"
+SELECT `prenom`, `nom`, `naissance` FROM `etudiants` WHERE sexe="femme"

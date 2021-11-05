@@ -1,0 +1,1 @@
+SELECT etages.nom, salles.nom AS "Biggest Room" FROM salles INNER JOIN etages WHERE salles.id_etage = etages.id ORDER by salles.capacite DESC LIMIT 1
