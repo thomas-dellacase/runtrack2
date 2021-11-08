@@ -18,7 +18,7 @@
         </select>
         <button type="submit" value="submit">Valider</button>
 <?php
-
+//ya pas tout qui marche 
 foreach ($_GET as $key => $val){
     if($_GET['select'] == "gras"){
         echo gras($val);
