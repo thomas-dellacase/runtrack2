@@ -33,17 +33,23 @@ foreach ($_GET as $key => $val){
 echo '<pre>';
 print_r($_GET);
 echo '</pre>';
-// function ne cible pas le mot
+
+
 function gras($str){
     $maj = "AZERTYUIOPQSDFGHJKLMWXCVBN";
-    for($i=0; isset($maj[$i]); $i++){
-        if($str[0] == $maj[$i]){
-            return "<b>$str</b>";
+    for($i=0; isset($str[$i]); $i++){
+        for($j=0; isset($maj[$j]); $j++){
+            if($str[$i] == $maj[$j] && $str[$i-1] == " "){
+                echo "<b>";
+            }
         }
-    
+    echo $str[$i];
+    if($str[$i] == " "){
+        echo "</b>";
     }
 }
-// function ne cible pas le mot
+}
+// function _ avant et apres le mot
 function laplateforme($str){
     $i = -1;
     $j = -2;
@@ -54,7 +60,7 @@ function laplateforme($str){
 }
 // function OK
 function cesar($str, $decal){
-    $alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    $alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIKLMNOPQRSTUVWXYZ";
     $i = 0;
     $j = 0;
     for($i = 0; isset($str[$i]); $i ++){

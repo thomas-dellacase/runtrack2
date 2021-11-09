@@ -15,7 +15,7 @@ echo (leetspeak("WASUP leet my men come back to CS 1.6"));
 
 
 <?php
-/*function leetspeak($str) {
+function leetspeak($str) {
     $strarray = (str_split($str));
     $result = "";
     foreach($strarray as $char) {
