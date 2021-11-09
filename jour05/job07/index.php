@@ -20,14 +20,14 @@
 <?php
 //ya pas tout qui marche 
 foreach ($_GET as $key => $val){
-    if($_GET['select'] == "gras"){
-        echo gras($val);
+    if($_GET[$key] == "gras"){
+        gras($_GET['str']);
     }
-    elseif($_GET['select'] == "cesar"){
-        echo cesar($val, 2);
+    elseif($_GET[$key] == "cesar"){
+        cesar($_GET['str'], 2);
     }
-    elseif($_GET['select'] == "laplateforme"){
-        echo laplateforme($val);
+    elseif($_GET[$key] == "laplateforme"){
+        laplateforme($_GET['str']);
     }
 }
 //echo '<pre>';
