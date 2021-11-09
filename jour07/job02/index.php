@@ -1,6 +1,5 @@
 <?php
 $i = 45;
-dump($i);
 $nbvisite = 0;
 if(isset($_COOKIE['nbvisite'])){   
     $nbvisite = $_COOKIE['nbvisite'];

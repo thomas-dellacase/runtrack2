@@ -30,9 +30,9 @@ foreach ($_GET as $key => $val){
         echo laplateforme($val);
     }
 }
-echo '<pre>';
-print_r($_GET);
-echo '</pre>';
+//echo '<pre>';
+//print_r($_GET);
+//echo '</pre>';
 
 
 function gras($str){
@@ -44,7 +44,7 @@ function gras($str){
             }
         }
     echo $str[$i];
-    if($str[$i] == " "){
+    if($str[$i] == " " || $str[$i] =="."){
         echo "</b>";
     }
 }
