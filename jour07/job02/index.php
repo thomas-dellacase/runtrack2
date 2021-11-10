@@ -1,5 +1,4 @@
 <?php
-$i = 45;
 $nbvisite = 0;
 if(isset($_COOKIE['nbvisite'])){   
     $nbvisite = $_COOKIE['nbvisite'];
