@@ -4,7 +4,7 @@
  if($con->connect_errno){
      echo "Failed" . $con -> connect_error;
     }
-     $query = $con->prepare("SELECT SUM(superficie) AS siperficie_totale FROM (etages)");
+     $query = $con->prepare("SELECT AVG (capacite) FROM salles");
      $query->execute(); 
 
      

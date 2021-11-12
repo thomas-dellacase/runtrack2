@@ -4,7 +4,7 @@
  if($con->connect_errno){
      echo "Failed" . $con -> connect_error;
     }
-     $query = $con->prepare("SELECT SUM(capacite) FROM (salles)");
+     $query = $con->prepare("SELECT SUM(capacite) AS capacite_totale FROM (salles)");
      $query->execute(); 
 
      

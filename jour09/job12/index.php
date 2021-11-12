@@ -4,7 +4,7 @@
  if($con->connect_errno){
      echo "Failed" . $con -> connect_error;
     }
-     $query = $con->prepare("SELECT SUM(superficie) AS siperficie_totale FROM (etages)");
+     $query = $con->prepare("SELECT nom, naissance FROM `etudiants` WHERE naissance BETWEEN '1998/01/01/' AND '2018/12/31'");
      $query->execute(); 
 
      
@@ -32,9 +32,9 @@ foreach ($titres as $titre => $value)
 <tbody>
     <tr>
     <?php
-    foreach ($titres as $titre => $value) {
-        echo "<td>" . $value . "</td>";
-    }
+        foreach ($titres as $titre => $value) {
+         echo "<td>" . $value . "</td>";
+     }
     ?>
     </tr>
     <tr>

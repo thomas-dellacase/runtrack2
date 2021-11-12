@@ -4,7 +4,7 @@
  if($con->connect_errno){
      echo "Failed" . $con -> connect_error;
     }
-     $query = $con->prepare("SELECT COUNT(*) FROM etudiants");
+     $query = $con->prepare("SELECT COUNT(*) AS nb_etudiants FROM etudiants");
      $query->execute(); 
 
      

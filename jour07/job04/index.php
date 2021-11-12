@@ -6,7 +6,8 @@
     if(isset($_GET['deconnexion'])){
         setcookie('prenom', 0, 1,);
     } 
-     if(!isset($_COOKIE['prenom'])){?>
+     if(!isset($_COOKIE['prenom'])){
+         ?>
 
     <form method="GET" action="index.php">
         <input type="text" name="prenom">
