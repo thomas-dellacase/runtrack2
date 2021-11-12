@@ -11,6 +11,8 @@
      $resultSet = $query->get_result();
      $titres= $resultSet->fetch_assoc();
      $result = $resultSet->fetch_all();
+
+     
      echo "<pre>";
      var_dump($result);
      echo "</pre>";
@@ -19,6 +21,7 @@
     //  print_r($result);
     //  echo "</pre>";
 
+    // La lounge ne marche pas 
 ?>
 
 
@@ -37,6 +40,7 @@ foreach ($titres as $titre => $value)
     <?php
         foreach ($titres as $titre => $value) {
           echo "<td>" . $value . "</td>";
+          
       }
     ?>
     </tr>
