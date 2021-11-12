@@ -36,8 +36,8 @@ foreach ($titres as $titre => $value)
     <tr>
     <?php
         foreach ($titres as $titre => $value) {
-         echo "<td>" . $value . "</td>";
-     }
+          echo "<td>" . $value . "</td>";
+      }
     ?>
     </tr>
     <tr>
