@@ -4,7 +4,7 @@
  if($con->connect_errno){
      echo "Failed" . $con -> connect_error;
     }
-     $query = $con->prepare("SELECT etages.nom, salles.nom FROM salles INNER JOIN etages WHERE salles.id_etage = etages.id");
+     $query = $con->prepare("SELECT etages.nom as etage, salles.nom FROM salles INNER JOIN etages WHERE salles.id_etage = etages.id");
      $query->execute(); 
 
      
